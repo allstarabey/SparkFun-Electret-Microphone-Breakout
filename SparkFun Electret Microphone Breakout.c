@@ -1,8 +1,4 @@
- /*
- * The Circuit: 
- * Connect AUD to analog input 0
- * Connect GND to GND
- * Connect VCC to 3.3V (3.3V yields the best results)
+
  *  
  *  To adjust when the LED turns on based on audio input:
  *  Open up the serial com port (Top right hand corner of the Arduino IDE)
@@ -12,12 +8,7 @@
  *  according to your findings.
  *  
  *  You can also adjust how long you take samples for by updating the "SampleWindow"
- * 
- * This code has been adapted from the
- * Example Sound Level Sketch for the
- * Adafruit Microphone Amplifier
- * 
- */
+
 
 const int sampleWindow = 250; // Sample window width in mS (250 mS = 4Hz)
 unsigned int knock;
